@@ -1,0 +1,52 @@
+body {
+  /* 자식 요소 가운데 노출시킴 */
+  display: flex;
+  /* view height/width */
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  color: blue;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.apple {
+  color: black;
+  background-color: white;
+}
+
+.google {
+  color: white;
+  background-color: #252b42;
+}
+
+.icon {
+  display: flex;
+  /* 가운데로 맞춰줘 */
+  align-items: center;
+  font-size: 30;
+}
+
+.download {
+  display: flex;
+  gap: 10px;
+}

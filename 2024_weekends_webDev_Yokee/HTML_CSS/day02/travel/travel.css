@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 200px;
+  gap: 10px;
+  padding: 40px;
+}
+
+.box {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  width: 15%;
+  gap: 10px;
+}
+
+.image_content {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  font-weight: bold;
+  font-size: 14px;
+}

@@ -1,0 +1,68 @@
+/* .color {
+  background-color: #1abc9c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.color > .color1 {
+  background-color: #2ecc71;
+  height: 100%;
+  width: 80%;
+}
+
+.color1 > .color2 {
+  background-color: #3498db;
+  height: 100%;
+  width: 75%;
+}
+
+.color2 > .color3 {
+  background-color: #9b59b6;
+  height: 100%;
+  width: 66%;
+}
+.color3 > .color4 {
+  background-color: #34495e;
+  height: 100%;
+  width: 50%;
+} */
+
+.pallete {
+  width: 100vw;
+  height: 25vh;
+  border: 1px solid black;
+
+  display: flex;
+  /* flex-direction: 자식의 방향[가로 or 세로] */
+  /* flex-direction: column; */
+
+  /* main축으로 정렬 */
+  /* justify-content: center; */
+  /* cross축으로 정렬 */
+  /* align-items: end; */
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}

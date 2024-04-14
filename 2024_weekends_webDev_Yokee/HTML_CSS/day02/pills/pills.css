@@ -1,0 +1,40 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+} */
+
+.container {
+  /* 가로로 정렬해줘! display: flex; */
+  display: flex;
+  gap: 5px;
+}
+
+.button {
+  border: 1px solid #dbdbdb;
+  border-radius: 100px;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  /* width: fit-content;
+  text-align: center; */
+  /* padding 12시[top] 3시[right] 6시[bottom] 9시[left] */
+  padding: 10px 16px 10px 16px;
+
+  /* 마우스 올렸을 때 커서 바뀌는 css */
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #1181ff;
+  color: white;
+}
+
+.all {
+  background-color: #1181ff;
+  color: white;
+}
+.other {
+  background-color: white;
+  color: black;
+}

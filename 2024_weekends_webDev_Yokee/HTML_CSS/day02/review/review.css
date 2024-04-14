@@ -1,0 +1,59 @@
+.sign-up {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-up-phrase {
+  color: #1181ff;
+}
+
+.sign-up-button {
+  color: #1181ff;
+  background-color: white;
+
+  border: 1px solid #1181ff;
+  border-radius: 8px;
+
+  width: 80px;
+  text-align: center;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment {
+  color: #1181ff;
+}
+
+.register {
+  color: #1181ff;
+  border: 1px solid #1181ff;
+  border-radius: 8px;
+
+  width: 80px;
+  text-align: center;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fruit {
+  font-size: 30px;
+}
+
+.fruit > .apple {
+  color: red;
+}
+.fruit > .banana {
+  color: yellow;
+}
+.fruit > .orange {
+  color: orange;
+}

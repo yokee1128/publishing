@@ -1,0 +1,42 @@
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box {
+  font-family: "Noto Serif KR", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 25vw;
+  height: 75vh;
+  background-image: url("vill-1.jpg");
+  background-size: cover;
+  border-radius: 40px;
+  margin: 30px;
+}
+
+.phrase {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+  gap: 20px;
+}
+
+.level {
+  font-size: small;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin-bottom: 10px;
+  line-height: 5px;
+}
+
+.title {
+  font-size: larger;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.time {
+  font-size: medium;
+}

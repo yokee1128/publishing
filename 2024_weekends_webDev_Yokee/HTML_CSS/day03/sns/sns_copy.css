@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "YEONGJUSeonbiTTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/YEONGJUSeonbiTTF.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* * {
+  font-family: "YEONGJUSeonbiTTF";
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  width: 350px;
+  height: 650px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 50px 25px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 90% center;
+}
+
+.introduce {
+  font-family: "YEONGJUSeonbiTTF";
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+}
+
+.button {
+  text-align: center;
+  font-family: "YEONGJUSeonbiTTF";
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  font-size: 20px;
+  background-color: #e26bc1;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 24px;
+}
+
+.icon > li {
+  transform: all 0.5s ease;
+}
+
+.facebook:hover {
+  color: skyblue;
+}
+.instagram:hover {
+  color: salmon;
+}
+
+.spotify:hover {
+  color: slateblue;
+}

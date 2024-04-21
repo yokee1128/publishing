@@ -1,0 +1,10 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: deepskyblue;
+  transition: all 0.5s ease;
+}
+
+.box:hover {
+  transform: rotate(45deg) scale(1.2);
+}

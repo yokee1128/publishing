@@ -4,14 +4,21 @@
   width: 100vw;
   overflow-y: scroll;
   flex-direction: column;
+
 }
+
+.container>img{
+  width: 100%;
+  height: 100vw;
+}
+
 
 .container::-webkit-scrollbar {
   display: none;
 }
 
 .menu {
-  height: 50px;
+  height: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -56,50 +63,60 @@
   white-space: nowrap;
 }
 .mid {
-  background-image: url("image.avif");
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.background {
   width: 100%;
   height: 100%;
   background-size: cover;
+  background-image: url("backgroundimg.png");
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap:30px;
 }
 
-.background > span {
-  position: relative;
-  top: 300px;
-  left: 750px;
-  font-size: 50px;
+.introduce {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+}
+
+.comment{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment > span {
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .stores {
   display: flex;
-  position: relative;
-  top: 400px;
-  left: 50px;
   justify-content: center;
   align-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .store {
   align-items: cen;
   border: 1px solid black;
-  width: 200px;
-  height: 50px;
-  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
   background-color: black;
   color: white;
+  font-size: 15px;
+  font-weight: 700;
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+
 }
 
 .phrase {
@@ -111,8 +128,7 @@
 }
 
 .phrase > span {
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   font-weight: 800;
   font-size: 30px;
 }

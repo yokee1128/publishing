@@ -1,0 +1,68 @@
+header {
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+  border-bottom: var(--border-button);
+  background-color: white;
+  position: fixed;
+  top: 0px;
+}
+
+nav {
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  align-items: flex-start;
+  display: flex;
+  gap: 20px;
+}
+.banner {
+  width: 100%;
+  max-width: 1200px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  align-items: center;
+}
+
+.logo {
+  color: var(--primary--color);
+  font-size: var(--font-size-large);
+}
+
+.sign-up {
+  font-size: var(--font-size-small);
+}
+
+.location {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 10px;
+}
+
+.location_option {
+  display: flex;
+  gap: 5px;
+}
+
+.class_option {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 3px;
+}
+
+.button {
+  border-radius: 30px;
+  border: var(--border-button);
+  padding: 5px 10px;
+  color: rgb(128, 135, 153);
+}

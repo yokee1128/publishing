@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "KCC-Hanbit";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "KCC-Hanbit";
+}
+
+nav > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav > a > span {
+  font-size: 20px;
+  color: white;
+}
+
+nav > button {
+  width: 110px;
+  height: 44px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "KCC-Hanbit";
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 11px 14px;
+}

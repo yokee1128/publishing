@@ -1,0 +1,18 @@
+:root {
+  /* color */
+  --primary--color: rgb(0, 115, 250);
+  --secondary--color: rgb(6, 106, 229);
+
+  /* font */
+  --font-size-small: 15px;
+  --font-size-normal: 16px;
+  --font-size-large: 25px;
+  --font-size-mid: 20px;
+
+  /* width */
+  --max-width: 1200px;
+
+  /* border */
+  --border-button-radius: 100px;
+  --border-button: 1px solid rgba(128, 135, 153, 0.15);
+}

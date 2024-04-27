@@ -1,0 +1,90 @@
+.background_video {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.menubar {
+  display: flex;
+  width: 70%;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.name > h4 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+
+.sign-up-button {
+  border-radius: 30px;
+  background-color: gray;
+  opacity: 50%;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 8px;
+}
+
+.sign-up-button > h6 {
+  color: white;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+  gap: 30px;
+}
+
+.comment > h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  color: white;
+}
+
+.comment > h4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+}
+
+.download {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 280px;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  border-radius: 30px;
+  border: 1px solid white;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 10px;
+  color: white;
+  background-color: gray;
+  opacity: 50%;
+  font-size: 15px;
+}
+
+.button > img {
+  width: 20px;
+  height: 20px;
+}

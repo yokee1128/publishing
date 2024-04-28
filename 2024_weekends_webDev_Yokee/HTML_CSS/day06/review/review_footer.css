@@ -1,0 +1,48 @@
+footer {
+  width: 100%;
+  background: var(--black1);
+  padding: 100px 0px;
+  border-top: 1px solid var(--black6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-mid);
+  color: var(--black4);
+}
+
+.bottom_gnb {
+  display: flex;
+  width: 100%;
+  max-width: var(--max-width);
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 1px solid var(--black4);
+  padding-bottom: 20px;
+}
+
+.ottom_gnb_logo {
+  font-size: var(--font-xl);
+}
+
+.bottom_gnb_menus {
+  display: flex;
+  gap: var(--gap-small);
+}
+
+.bottom_gnb_menu {
+  font-size: var(--font-small);
+}
+
+.detail_info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--max-width);
+  font-size: var(--font-xs);
+}
+
+.rights_info {
+  width: 100%;
+  max-width: var(--max-width);
+  font-size: var(--font-xs);
+}

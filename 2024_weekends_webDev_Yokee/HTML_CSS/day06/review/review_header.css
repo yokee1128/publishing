@@ -1,0 +1,39 @@
+header {
+  width: 100vw;
+  max-width: var(--max-width);
+  display: flex;
+  margin: 0px auto;
+  height: 60px;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log {
+  margin: 20px;
+}
+
+.logo > span {
+  font-size: var(--font-xl);
+  font-weight: 700;
+}
+
+.menus {
+  display: flex;
+}
+
+.menu {
+  padding: 20px 40px;
+  font-weight: 700;
+}
+
+.menu:hover {
+  background-color: var(--black3);
+  color: var(--white);
+  transition: all 0.5s;
+}

@@ -1,0 +1,29 @@
+.first_section_post{
+    width:100vw;
+    height:800px;
+    display: flex;
+    /* overflow-y:hidden; */
+}
+
+.post_container{
+    width: 100%;
+    height:800px;
+    display: flex;
+    display: flex;
+}
+
+.post_box{
+    width: 34vw;
+    height: 100%;
+    filter: brightness(0.8);
+}
+
+.post_box:hover{
+    filter:brightness(1.1)
+}
+
+.post_box> img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

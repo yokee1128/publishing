@@ -1,7 +1,13 @@
 header{
+    position: fixed;
+    /* padding-top: 90px;
+    top: -90px; */
     height: 90px;
     width: 100vw;
     background-color: #023586;
+
+    z-index: 99;
+    border-bottom: 2px solid #023586;
 }
 
 .navigation_container{
@@ -9,7 +15,7 @@ header{
     align-items: center;
     width: 100%;
     height: 100%;
-    max-width: 1200px;
+    max-width: 1420px;
     margin:0px auto;
 }
 
@@ -29,8 +35,7 @@ header{
 .top_gnb{
     display: flex;    
     width: 100%;
-    height: 100%;
-    max-width: 1200px;
+    max-width: 1420px;
     justify-content: space-around;
     padding: 40px 0px;    
     position: absolute;
@@ -40,7 +45,6 @@ header{
     display: flex;
     align-items: center;
     width: 100%;
-    height: 100%;
     gap:20px
 }
 
@@ -48,7 +52,6 @@ header{
     display: flex;
     align-items: center;
     width: 100%;
-    height: 100%;
     justify-content: end;
     gap:20px
 }
@@ -59,7 +62,19 @@ ul{
 
 li{
     color:white;
-    font-size:14px;   
+    font-size:14px;
+    width: fit-content;
+    height: 100%;
+    align-content: center;
+    border-bottom: 2px solid #023586;
+}
+
+.top_gnb_yellow:hover{
+    border-bottom:3px solid #feda24;
+}
+
+.top_gnb_white:hover{
+    border-bottom:3px solid white;
 }
 
 .top_gnb_yellow{

@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px) {
+footer{
+    padding: 30px;
+    height: 900px;
+    background-color: #0a0541;
+}
+
+.footer_container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.footer_information_content_first_line{
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    flex-direction:column;
+}
+
+.footer_fllowup_buttons{
+    align-items: center;
+}
+}
+
+@media screen and (max-width: 1024px) {
+
+
+
+
+    
+}
+
+footer{
+    width: 100vw;
+    background-color: #0a0541;
+}
+
+.footer_container {
+    padding: 65px 0px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+.footer_logo {
+    width:20%;
+    height:100%;
+    /* margin-left: 65px; */
+}
+
+.footer_logo >img{
+    width:100%;
+    height: 87px;
+}
+
+
+.footer_information_contents{
+    width: 40%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_information_content_first_line{
+    width: 100%;
+    padding: 15px 0px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.2;
+
+}
+
+.footer_information_content{
+    width: 100%;
+    padding: 15px 0px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.footer_fllowup_buttons{
+    width: 40%;
+    height: 100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_fllowup_button_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap:10px;
+}
+
+.footer_information_content_policy{
+    font-size: 18px;
+    border-right: 1px solid white;
+    padding-right: 25px;
+}
+
+.footer_information_content_terms{
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.footer_information_content_bottom{
+    color:rgb(255 , 255 ,255 , 0.6);
+}
+
+.footer_fllowup_butto_box>span{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+li{
+    background-color:rgb(255 , 255 , 255, 0.1) ;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

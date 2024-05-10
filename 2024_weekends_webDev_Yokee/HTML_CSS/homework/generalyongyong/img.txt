@@ -1,0 +1,15 @@
+footer-bg: http://generalyongyong.com/wp-content/uploads/2019/03/footer-bg-scaled.jpg
+main-bg:
+http://generalyongyong.com/wp-content/uploads/2020/06/1-2-1200x900.png
+http://generalyongyong.com/wp-content/uploads/2020/06/2-scaled.jpg
+http://generalyongyong.com/wp-content/uploads/2020/06/6-scaled.jpg
+http://generalyongyong.com/wp-content/uploads/2020/06/4-scaled.jpg
+
+
+
+General 
+YongYong
+HONGKONG RETRO CHINESE 
+Again, Once & Again 
+19 December 2019 
+— No Due date

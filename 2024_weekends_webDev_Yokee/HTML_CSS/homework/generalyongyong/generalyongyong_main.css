@@ -1,0 +1,435 @@
+main{
+  width: 100vw;
+  /* height: 100vh; */
+  /* height: calc(100vh - 125px); */
+  display: flex;
+  flex-direction: column;
+}
+
+main_page{
+  width: 100%;
+  height: 100vh;
+}
+
+.background_images {
+  background-image: url("http://generalyongyong.com/wp-content/uploads/2020/06/1-2.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  position: absolute;
+  top:0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url("http://generalyongyong.com/wp-content/uploads/2020/07/1.png");
+  }
+  33% {
+    background-image: url("http://generalyongyong.com/wp-content/uploads/2020/06/2-scaled.jpg");
+  }
+  66% {
+    background-image: url("http://generalyongyong.com/wp-content/uploads/2020/06/6-scaled.jpg");
+  }
+  100% {
+    background-image: url("http://generalyongyong.com/wp-content/uploads/2020/06/4-scaled.jpg");
+  }
+}
+
+.background_images {
+  animation: changeBackground 10s infinite ;
+}
+  
+.main_page_phrase{
+  position:absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(255, 199, 192);
+  width: 100%;
+  height: calc(100vh - 125px);
+  
+  gap:40px;
+}
+
+.main_page_phrase_top{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 42px;
+
+}
+
+.main_page_phrase_box{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+}
+
+.main_page_phrase_side{
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  transform:rotate(-90deg);
+  justify-content: center;
+}
+
+.phrase_side_left{
+  transform:rotate(-90deg);
+}
+
+.phrase_side_right{
+  transform:rotate(90deg);
+}
+
+.main_page_phrase_center{
+  font-size: 120px;
+  text-align: center;
+}
+
+
+.yongyongstroypage{
+  width: calc(100vw - 200px);
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  top: calc(100vh + 125px);
+  margin-left: 100px;
+}
+
+.yongyongstroy_image{
+  width: 50%;
+  height: 90%;
+}
+
+.yongyongstroy_image>img{
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.yongyongstroy_introduce{
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  white-space:pre-wrap;
+  padding-right:100px;
+}
+
+.yongyongstroy_introduce_topline{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.yongyongstroy_introduce_topline::before{
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  background-color: grey;
+}
+
+.yongyongstroy_introduce_englist_title{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.yongyongstroy_introduce_english_sub{
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.2;
+}
+
+.yongyongstroy_introduce_korean_title{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.yongyongstroy_introduce_korean_citations{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  font-style: italic;
+  color:grey;
+}
+
+.dividing_line::before, .dividing_line::after{
+  content: '';
+  display: inline-block;
+  width: 45%;
+  height: 1px;
+  position: absolute;
+  background-color: grey;
+}
+
+.yongyongstroy_introduce_korean_content{
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+.dividing_line_section_bottom::after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top:100vh;
+  left: 0px;
+  background-color: grey;
+}
+
+
+.about_menu{
+  width: calc(100vw - 100px);
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  top: calc(200vh + 125px);
+  max-width: 90vw;
+  margin-left: 100px;
+}
+
+.about_menu_and_drink_phrase{
+  display: flex;
+  flex-direction: column;
+}
+
+.about_menu_and_drink_phrase_title{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 3;
+}
+
+.about_menu_and_drink_phrase_engligh_contents{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(85, 81, 81);
+}
+
+.about_menu_and_drink_phrase_korean_contents{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 20px;
+  color: rgb(85, 81, 81);
+}
+
+.about_menu_and_drink_images{
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.about_menu_images_unit{
+  width: 48%;
+  height: 620px;
+
+}
+
+.about_menu_images_unit>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about_drink{
+  width: calc(100vw - 100px);
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  top: calc(300vh + 125px);
+  max-width: 90vw;
+  margin-left: 100px;
+}
+
+.about_menu_images_unit>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about_drink_images_unit{
+  width: 30%;
+  height: 620px;
+
+}
+
+.about_drink_images_unit>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.green_background{
+  width: 100vw;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: calc(400vh + 125px);
+  background-color: #273f29;
+}
+
+.retro_gram_style{
+  display: flex;
+  height: 100vh;
+  width: calc(100vw - 100px);
+  justify-content: center;
+  align-items: center;
+  color:rgb(255, 199, 192);
+}
+
+.retro_gram_style_phrase{
+  width: 1100px;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.retro_gram_style_image{
+  width: 500px;
+  height: 625px;
+}
+
+.retro_gram_style_image>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.retro_gram_style_phrase_topline{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.retro_gram_style_phrase_topline::before{
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  background-color: rgb(255, 199, 192);
+}
+.retro_gram_style_phrase_title{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.retro_gram_style_phrase_english_content{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.retro_gram_style_phrase_korean_content{
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+.interior_images{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  gap: 60px;
+}
+
+.interior_image_unit{
+  width: 830px;
+  height: 830px;
+  border-top: 10px dotted yellow;
+}
+
+.interior_image_unit>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story_three_yongyong{
+  width: calc(100vw - 100px);
+  display: flex;
+  justify-content: center;
+  margin:80px 0px;
+}
+
+.story_three_yongyong_phrase{
+  width: 100%;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  color: rgb(255, 199, 192);
+  justify-content: space-between;
+}
+
+.story_three_yongyong_title{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.story_three_yongyong_title::before{
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  background-color: rgb(255, 199, 192);
+}
+
+.story_three_yongyong_english_content{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.story_three_yongyong_korean_content{
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+
+.story_three_yongyong_images{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  gap: 60px;
+}
+
+.story_three_yongyong_image_unit{
+  width: 535px;
+  height: 535px;
+}
+
+.story_three_yongyong_image_unit>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

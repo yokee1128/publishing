@@ -1,0 +1,42 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray50: #f5f5f5;
+  --gray100: #eee;
+  --gray200: #dedede;
+  --gray500: #757575;
+  --gray700: #4e4e4e;
+  --gray900: #1f1f1f;
+  --pink500: #ff5160;
+  --pink600: #db3b57;
+
+  /* padding */
+  --padding--button: 14px 16px;
+
+  /* border-radius */
+  --borderRadius--medium: 20px;
+  --borderRadius--small: 12px;
+
+  /* max-width */
+  --maxwidth--tablet: 628px;
+  --maxwidth--mobile: 327px;
+
+  /* font */
+  --font--size--mega: 64px;
+  --font--size--large: 32px;
+  --font--size--samll: 18px;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pretendard-Regular";
+  word-break: keep-all;
+  letter-spacing: -0.3px;
+}

@@ -1,7 +1,10 @@
 header {
   width: 100vw;
   height: 80px;
-  background-color: var(--backgroundPrimary);
+  background-color: var(--white);
+  opacity: 90%;
+  position:fixed;
+  z-index: 99;
 }
 nav {
   width: 100%;

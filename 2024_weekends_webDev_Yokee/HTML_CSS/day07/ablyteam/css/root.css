@@ -14,20 +14,23 @@
   --padding--button: 14px 16px;
 
   /* border-radius */
-  --borderRadius--large:30px;
+  --borderRadius--large: 30px;
   --borderRadius--medium: 20px;
   --borderRadius--small: 12px;
 
   /* max-width */
-  --maxwidth--tablet: 628px;
-  --maxwidth--mobile: 327px;
+  --maxwidth--pc: 960px;
+  /* --maxwidth--tablet: 684px; */
+  --maxwidth--mobile: 684px;
 
   /* font */
   --font--size--mega: 64px;
   --font--size--xlarge: 48px;
   --font--size--large: 32px;
   --font--size--medium: 24px;
-  --font--size--samll: 18px;
+  --font--size--medium1: 20px;
+  --font--size--small: 18px;
+  --font--size--xsmall: 16px;
 }
 
 @font-face {

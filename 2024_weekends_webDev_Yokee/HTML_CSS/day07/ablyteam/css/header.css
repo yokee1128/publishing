@@ -3,12 +3,13 @@ header {
   height: 80px;
   background-color: var(--white);
   opacity: 90%;
-  position:fixed;
+  position: fixed;
   z-index: 99;
 }
+
 nav {
   width: 100%;
-  max-width: 1000px;
+  max-width: var(--maxwidth--pc);
   margin: 0px auto;
   height: 100%;
   display: flex;
@@ -33,6 +34,7 @@ nav > ul {
   width: 500px;
   height: 100%;
   gap: 10px;
+  list-style: none;
 }
 
 nav > ul > li {
@@ -44,7 +46,7 @@ nav > ul > li {
   white-space: nowrap;
 }
 
-.hamburger > i {
+.hamburger {
   display: none;
   width: 24px;
   height: 24px;
@@ -68,7 +70,7 @@ li:hover {
     display: none;
   }
 
-  .hamburger > i {
+  .hamburger {
     display: block;
   }
 }

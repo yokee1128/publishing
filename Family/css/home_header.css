@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Gisangchung Dalcomgihu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/Gisangchung Dalcomgihu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+header{
+  width: 100vw;
+    height: 120px;
+    /* border-bottom: 1px solid red; */
+    background-image: linear-gradient(to top, #fbfcdb 0%, #e9defa 100%);
+
+    /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+}
+
+
+nav{
+    width: 100%;
+    max-width: 1200px;
+    margin:0px auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.logo_image {
+    width: 75px;
+    height: 55px;   
+    border-radius: 10px;
+    border:2px solid #e9defa;
+    background-image: url("../image/logoimage/main_logoimage1.JPG");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    display: flex;
+    animation: changeBackground 10s infinite 5s;
+  }
+  
+  @keyframes changeBackground {
+    0% {
+      background-image: url("../image/logoimage/main_logoimage1.JPG");
+    }
+    50% {
+      background-image: url("../image/logoimage/main_logoimage2.JPG");
+    }
+    100% {
+      background-image: url("../image/logoimage/main_logoimage3.JPG");
+    }
+}
+
+.logo >span{
+    font-family: 'Gisangchung Dalcomgihu';
+}
+
+ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    font-family: 'Gisangchung Dalcomgihu';
+}
+
+li{
+    width: fit-content;
+    white-space: nowrap;
+    padding: 14px 16px;
+}
+
+.humburger{
+  display: none;
+}
+
+@media screen and (max-width: 1470px) {
+  aside{
+      display: none;;
+  }
+
+  ul{
+    justify-content: flex-end;
+  }
+
+  li{
+    display: none;
+  }
+  .humburger{
+    display: block;
+  }
+}
+/* 768px보다 작으면 아래  CSS */
+@media screen and (max-width: 768px) {
+ 
+}

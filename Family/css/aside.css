@@ -1,0 +1,80 @@
+aside {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    z-index: 99;
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:70px
+}
+
+aside > article{
+    width: 56px;
+    height: 56px;
+    /* border: 1px solid red; */
+    border-radius: 50px;
+}
+
+article > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border:5px outset #e9defa;
+    object-fit: cover;
+    position: relative;
+}
+
+article > span {
+    line-height:2;
+    font-family: 'Gisangchung Dalcomgihu';
+    white-space: nowrap;
+}
+
+.profile{
+    position: relative;
+}
+
+.arrow_box {
+	position: absolute;
+    top: 15px;
+    left: 85px;
+	background: #fbfcdb;
+	border: 2px ridge #e9defa;
+    width: 190px;
+    height: 140px;
+    opacity: 0;
+}
+
+.profile_unit{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: flex-end;
+}
+
+.profile_unit > span {
+    white-space: nowrap;
+}
+
+ruby{
+    font-family: 'Gisangchung Dalcomgihu';
+}
+
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.profile:hover .arrow_box{
+    opacity: 1;
+}

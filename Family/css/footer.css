@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Gisangchung Dalcomgihu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/Gisangchung Dalcomgihu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+footer{
+    width: 100vw;
+    /* height: 280px; */
+    background-color: #e9defa;
+    align-content: center;
+    padding: 60px 0px 20px 0px;
+}
+
+.phrase{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contents_box{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contents{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.title {
+    font-family: 'Gisangchung Dalcomgihu';
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    border-bottom: 3px double #fbfcdb;
+}
+
+.unit_title{
+    line-height: 1.5;
+    white-space: nowrap;
+
+}
+
+.content_unit{
+    line-height: 1.3;
+    white-space: nowrap;
+}
+
+.unit_date{
+    /* line-height: 1.3; */
+    text-align: right;
+}
+
+span{
+    font-family: 'Gisangchung Dalcomgihu';
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 1470px) {
+    aside{
+        display: none;;
+    }
+
+}
+  /* 768px보다 작으면 아래  CSS */
+  @media screen and (max-width: 768px) {
+   
+  }
